@@ -1,0 +1,7 @@
+{
+  "name": "NotifyEdu.Org.New",
+  "description": "NotifyEdu is a complete School Management System and Student Management Software for real-time attendance, fee tracking, and parent notifications.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
