@@ -66,7 +66,7 @@ const AdminSettingsManager: React.FC<AdminSettingsManagerProps> = ({ showToast }
                            <input type="text" name="title" id="title" value={contactInfo.title} onChange={handleChange} className="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-primary focus:border-primary" />
                         </div>
                         <div>
-                           <label htmlFor="description" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Business Address / Details</p>
+                           <label htmlFor="description" className="block text-sm font-medium text-gray-700 dark:text-gray-300">Business Address / Details</label>
                            <textarea name="description" id="description" rows={3} value={contactInfo.description} onChange={handleChange} className="mt-1 block w-full px-3 py-2 bg-white dark:bg-gray-700 border border-gray-300 dark:border-gray-600 rounded-md shadow-sm text-gray-900 dark:text-gray-200 focus:outline-none focus:ring-primary focus:border-primary" />
                         </div>
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
